@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+class Setting extends StatelessWidget {
+  const Setting({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.green[500],
+      child: Center(
+        child: Text(' Settings'),
+      ),
+    );
+  }
+}
